@@ -8,21 +8,36 @@
     tools:context="fr.epitez.androidlayout_linear.MainActivity"
     android:showDividers="beginning|none|middle|end"
     android:orientation="vertical"
-    android:background="@android:color/background_light">
+    android:background="@android:color/background_light"
+    android:onClick="onClick">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/linear_layout"
-        android:id="@+id/button_linear"
+        android:id="@+id/button_linearlayout"
         android:layout_gravity="center_horizontal"
         android:onClick="onClick" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/relative_layout"
-        android:id="@+id/button_relactive"
+        android:id="@+id/button_relactivelayout"
         android:layout_gravity="center_horizontal"
         android:onClick="onClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_view"
+        android:id="@+id/button_listview"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grid_view"
+        android:id="@+id/button_gridview"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

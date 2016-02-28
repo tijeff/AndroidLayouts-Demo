@@ -7,6 +7,9 @@
     <string name="four">Quatre</string>
     <string name="horizontal"><u>Horizontal</u></string>
     <string name="vertical"><u>Vertical</u></string>
-    <string name="linear_layout">LinearLayout</string>
-    <string name="relative_layout">RelativeLayout</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+
 </resources>
