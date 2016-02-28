@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidLayout-Linear</string>
+    <string name="zero">Zero</string>
+    <string name="one">Un</string>
+    <string name="two">Deux</string>
+    <string name="three">Trois</string>
+    <string name="four">Quatre</string>
+    <string name="horizontal"><u>Horizontal</u></string>
+    <string name="vertical"><u>Vertical</u></string>
+    <string name="linear_layout">LinearLayout</string>
+    <string name="relative_layout">RelativeLayout</string>
+</resources>
